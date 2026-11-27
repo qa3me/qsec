@@ -1,0 +1,572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qsec 1.0.0\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Source code on GitHub"
+msgstr "کد منبع در گیت‌هاب"
+
+msgid "Recovery mode is active. Qsec previews, sign-in protection, firewall and hardening are paused."
+msgstr "حالت بازیابی فعال است. پیش‌نمایش‌ها، محافظت از ورود، فایروال و سخت‌سازی کیوسِک متوقف شده‌اند."
+
+msgid "Local firewall"
+msgstr "فایروال محلی"
+
+msgid "Inspects public GET and HEAD page paths that reach WordPress for configuration files, their backups and version-control metadata. Form submissions, login and the WordPress REST API follow their normal routes."
+msgstr "مسیر درخواست‌های عمومی GET و HEAD که به وردپرس می‌رسند برای فایل‌های پیکربندی، پشتیبان آن‌ها و فرادادهٔ مخزن کد بررسی می‌شود. ارسال فرم، ورود و REST API وردپرس از مسیر معمول خود اجرا می‌شوند."
+
+msgid "Firewall mode"
+msgstr "حالت فایروال"
+
+msgid "Report only (default)"
+msgstr "فقط گزارش (پیش‌فرض)"
+
+msgid "Block and report"
+msgstr "مسدودسازی و گزارش"
+
+msgid "Off"
+msgstr "خاموش"
+
+msgid "Save firewall mode"
+msgstr "ذخیرهٔ حالت فایروال"
+
+msgid "Reports contain only rule totals for the last seven UTC days. The counter for each rule and mode stops at 1,000 per day."
+msgstr "گزارش فقط شمار رخداد هر قاعده را برای هفت روز اخیر بر اساس UTC نگه می‌دارد. شمارش هر قاعده و حالت به ۱٬۰۰۰ رخداد در روز محدود است."
+
+msgid "Firewall report"
+msgstr "گزارش فایروال"
+
+msgid "Rule"
+msgstr "قاعده"
+
+msgid "Reported"
+msgstr "گزارش‌شده"
+
+msgid "Blocked"
+msgstr "مسدودشده"
+
+msgid "Configuration file"
+msgstr "فایل پیکربندی"
+
+msgid "Repository metadata"
+msgstr "فرادادهٔ مخزن کد"
+
+msgid "Clear firewall report"
+msgstr "پاک‌کردن گزارش فایروال"
+
+msgid "No firewall events in this period."
+msgstr "در این بازه رخدادی برای فایروال ثبت نشده است."
+
+msgid "This request was blocked."
+msgstr "این درخواست مسدود شد."
+
+msgid "You do not have permission to clear firewall reports."
+msgstr "شما اجازهٔ پاک‌کردن گزارش فایروال را ندارید."
+
+msgid "Too many sign-in attempts. Wait a minute and try again."
+msgstr "تعداد تلاش‌های ورود زیاد است. یک دقیقه صبر کنید و دوباره تلاش کنید."
+
+msgid "Recovery mode is active. Qsec previews, sign-in protection and hardening are paused."
+msgstr "حالت بازیابی فعال است. پیش‌نمایش‌ها، محافظت از ورود و سخت‌سازی کیوسِک متوقف شده‌اند."
+
+msgid "Animate the shield and its four points in light and dark designs"
+msgstr "حرکت سپر و چهار نقطهٔ اطراف آن در طرح روشن و تیره"
+
+msgid "Login attempts"
+msgstr "تلاش‌های ورود"
+
+msgid "Reports show daily totals for the last seven UTC days. They contain no usernames, addresses or passwords."
+msgstr "گزارش، تعداد تلاش‌های هفت روز اخیر را بر اساس زمان UTC نشان می‌دهد؛ بدون نام کاربری، نشانی شبکه و رمز عبور."
+
+msgid "Record failed sign-ins locally"
+msgstr "ثبت محلی ورودهای ناموفق"
+
+msgid "Limit repeated password attempts"
+msgstr "محدودکردن تلاش‌های پشت‌سرهم برای ورود با رمز"
+
+msgid "Five failures in five minutes pause the same login name and source for one minute. Retries do not extend the wait. Password recovery and existing sessions remain available."
+msgstr "پنج تلاش ناموفق در پنج دقیقه، ورود با همان نام و از همان مبدأ را یک دقیقه متوقف می‌کند. تلاش دوباره این مدت را بیشتر نمی‌کند. بازیابی رمز و نشست‌های فعلی در دسترس‌اند."
+
+msgid "Save login protection"
+msgstr "ذخیرهٔ محافظت از ورود"
+
+msgid "Failed sign-in report"
+msgstr "گزارش ورودهای ناموفق"
+
+msgid "Date (UTC)"
+msgstr "تاریخ (UTC)"
+
+msgid "Password failures"
+msgstr "خطای ورود با رمز"
+
+msgid "Second-factor failures"
+msgstr "خطای کد دومرحله‌ای"
+
+msgid "Limited requests"
+msgstr "تلاش‌های محدودشده"
+
+msgid "No recorded attempts in this period."
+msgstr "در این بازه تلاشی ثبت نشده است."
+
+msgid "Clear reports and temporary limits"
+msgstr "پاک‌کردن گزارش و رفع محدودیت‌های موقت"
+
+msgid "You do not have permission to clear login reports."
+msgstr "شما اجازهٔ پاک‌کردن گزارش‌های ورود را ندارید."
+
+msgid "© %s Behzad Qasemi · Qsec"
+msgstr "© %s بهزاد قاسمی · کیوسِک"
+
+msgid "Choose a design for the WordPress login and recovery screens."
+msgstr "طرح صفحهٔ ورود و بازیابی رمز وردپرس را انتخاب کنید."
+
+msgid "Preview dark green"
+msgstr "پیش‌نمایش سبز تیره"
+
+msgid "Preview light"
+msgstr "پیش‌نمایش روشن"
+
+msgid "Login appearance"
+msgstr "ظاهر صفحه ورود"
+
+msgid "Standard WordPress"
+msgstr "ظاهر استاندارد وردپرس"
+
+msgid "Dark green"
+msgstr "سبز تیره"
+
+msgid "Light"
+msgstr "روشن"
+
+msgid "Match device appearance"
+msgstr "هماهنگ با ظاهر دستگاه"
+
+msgid "Classic branding"
+msgstr "طرح کلاسیک"
+
+msgid "Classic accent (optional, e.g. #1a5e79)"
+msgstr "رنگ تأکیدی طرح کلاسیک (اختیاری، مثل ‎#1a5e79‎)"
+
+msgid "Animate the shield once in light and dark designs"
+msgstr "سپر در طرح روشن و تیره یک‌بار حرکت کند"
+
+msgid "Show the author copyright in light and dark designs"
+msgstr "نمایش حق‌نشر بهزاد قاسمی در طرح روشن و تیره"
+
+msgid "Public registration"
+msgstr "ثبت‌نام عمومی"
+
+msgid "Closed in WordPress"
+msgstr "در وردپرس بسته است"
+
+msgid "Open in WordPress"
+msgstr "در وردپرس باز است"
+
+msgid "Review access: the default role has additional privileges"
+msgstr "دسترسی‌ها را بررسی کنید. نقش پیش‌فرض اختیارات بیشتری دارد."
+
+msgid "Open, but the default role is unknown"
+msgstr "ثبت‌نام باز است. نقش پیش‌فرض مشخص نیست."
+
+msgid "Default role: %s"
+msgstr "نقش پیش‌فرض %s"
+
+msgid "%1$s of %2$s enrolled"
+msgstr "%1$s از %2$s حساب فعال"
+
+msgid "%s (partial)"
+msgstr "%s (پوشش ناقص)"
+
+msgid "%s pending"
+msgstr "%s به‌روزرسانی در انتظار"
+
+msgid "A bounded, read-only inspection for suspicious PHP and embedded code. Optional SHA-256 digests match a trusted list you provide."
+msgstr "بازرسی محدود و فقط‌خواندنی برای PHP مشکوک و کد جاسازی‌شده. می‌توانید هش‌های SHA-256 را از فهرست مورداعتماد خود وارد کنید."
+
+msgid "A core scan is already in progress. Resume it or discard it first."
+msgstr "یک اسکن هسته در جریان است. ابتدا آن را ادامه دهید یا کنار بگذارید."
+
+msgid "A report-only starter policy is active for this request. Review browser developer tools for violations."
+msgstr "سیاست اولیهٔ فقط‌گزارش در این درخواست فعال است. موارد ناسازگار را در ابزار توسعهٔ مرورگر ببینید."
+
+msgid "Accent (optional, e.g. #1a5e79)"
+msgstr "رنگ تأکیدی (اختیاری، مثل ‎#1a5e79)"
+
+msgid "Activate the optional Two-Factor plugin to use authenticator codes and backup codes with the native WordPress login."
+msgstr "افزونهٔ اختیاری Two-Factor را فعال کنید تا در ورود وردپرس از کد احراز هویت و کد پشتیبان استفاده کنید."
+
+msgid "Administrator two-factor enrollment"
+msgstr "فعال‌سازی ورود دومرحله‌ای مدیران"
+
+msgid "An existing report-only policy was detected. It remains in place."
+msgstr "یک سیاست فقط‌گزارش وجود دارد و همچنان برقرار است."
+
+msgid "Applies to the built-in theme and plugin code editors. Core updates and plugin management remain available."
+msgstr "روی ویرایشگرهای داخلی کد قالب و افزونه اعمال می‌شود. به‌روزرسانی هسته و مدیریت افزونه‌ها برقرار می‌مانند."
+
+msgid "Based on current WordPress settings"
+msgstr "بر پایهٔ تنظیمات فعلی وردپرس"
+
+msgid "Breakdown of configuration checks by status"
+msgstr "تفکیک بررسی‌های تنظیمات بر اساس وضعیت"
+
+msgid "Cached data is older than 24 hours"
+msgstr "اطلاعات ذخیره‌شده بیش از ۲۴ ساعت قدمت دارد"
+
+msgid "Checks passed"
+msgstr "بررسی‌های موفق"
+
+msgid "Choose a valid malware inspection scope."
+msgstr "محدودهٔ معتبری برای بازرسی بدافزار انتخاب کنید."
+
+msgid "Choose Qsec CSP preview in the front-end admin bar on other pages. The preview reports violations without blocking resources."
+msgstr "برای صفحه‌های دیگر، پیش‌نمایش CSP کیوسِک را در نوار مدیریت سایت انتخاب کنید. پیش‌نمایش موارد ناسازگار را گزارش می‌کند و منابع صفحه بارگیری می‌شوند."
+
+msgid "Clear core report"
+msgstr "پاک‌کردن گزارش هسته"
+
+msgid "Clear scan history"
+msgstr "پاک‌کردن تاریخچهٔ اسکن"
+
+msgid "Compare WordPress core files"
+msgstr "مقایسهٔ فایل‌های هستهٔ وردپرس"
+
+msgid "Configuration checks"
+msgstr "بررسی تنظیمات"
+
+msgid "Continue automatically"
+msgstr "ادامهٔ خودکار"
+
+msgid "Core checksum JSON"
+msgstr "فایل مرجع checksum هسته (JSON)"
+
+msgid "Core files"
+msgstr "فایل‌های هسته"
+
+msgid "Core reference entries: %s"
+msgstr "ورودی‌های مرجع هسته: %s"
+
+msgid "Core scan progress"
+msgstr "پیشرفت اسکن هسته"
+
+msgid "Core scan result"
+msgstr "نتیجهٔ اسکن هسته"
+
+msgid "Could not read the reference. Paste the complete JSON for this WordPress version and locale."
+msgstr "مرجع خوانده نشد. JSON کامل همین نسخه و زبان وردپرس را وارد کنید."
+
+msgid "Dashboard file editor is restricted for this administrator"
+msgstr "ویرایشگر فایل پیشخوان برای این مدیر محدود است"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "Differs from reference"
+msgstr "متفاوت با مرجع"
+
+msgid "Directory to inspect"
+msgstr "پوشهٔ مورد بررسی"
+
+msgid "Disable the dashboard file editor"
+msgstr "غیرفعال‌کردن ویرایشگر فایل پیشخوان"
+
+msgid "Disable XML-RPC pingback methods"
+msgstr "غیرفعال‌کردن روش‌های پینگ‌بک XML-RPC"
+
+msgid "Discard core scan"
+msgstr "کنار گذاشتن اسکن هسته"
+
+msgid "Download summary JSON"
+msgstr "دریافت خلاصهٔ JSON"
+
+msgid "Draft policy"
+msgstr "پیش‌نویس سیاست"
+
+msgid "Each request processes a small batch. You can close this page and resume within 24 hours of the last step."
+msgstr "هر درخواست یک دستهٔ کوچک را بررسی می‌کند. می‌توانید صفحه را ببندید و تا ۲۴ ساعت پس از آخرین مرحله ادامه دهید."
+
+msgid "Enter at most 200 SHA-256 digests, one 64-character hexadecimal value per line."
+msgstr "حداکثر ۲۰۰ هش SHA-256 وارد کنید، در هر خط یک مقدار ۶۴ کاراکتری شانزده‌شانزدهی."
+
+msgid "Exact SHA-256 match to your reference list"
+msgstr "تطابق دقیق SHA-256 با فهرست مرجع شما"
+
+msgid "File findings"
+msgstr "یافته‌های فایل"
+
+msgid "File inspections"
+msgstr "بازرسی فایل‌ها"
+
+msgid "Files checked: %1$s · Findings: %2$s"
+msgstr "فایل‌های بررسی‌شده: %1$s · یافته‌ها: %2$s"
+
+msgid "Get Two-Factor from WordPress.org"
+msgstr "دریافت Two-Factor از WordPress.org"
+
+msgid "Hardening controls"
+msgstr "تنظیمات سخت‌سازی"
+
+msgid "Hollow bar = partial coverage"
+msgstr "میلهٔ توخالی یعنی پوشش ناقص"
+
+msgid "Info"
+msgstr "اطلاع"
+
+msgid "Inspect existing security headers"
+msgstr "بررسی هدرهای امنیتی موجود"
+
+msgid "Inspect for malware indicators"
+msgstr "بازرسی نشانه‌های بدافزار"
+
+msgid "Inspect uploads"
+msgstr "بازرسی آپلودها"
+
+msgid "Latest file scan"
+msgstr "آخرین اسکن فایل"
+
+msgid "Latest inspection result"
+msgstr "نتیجهٔ آخرین بازرسی"
+
+msgid "Latest scan of each type per day, over the past seven days."
+msgstr "آخرین اسکن هر نوع در هر روز، طی هفت روز گذشته."
+
+msgid "Limited to the first 50 administrators"
+msgstr "محدود به ۵۰ مدیر اول"
+
+msgid "Local processing"
+msgstr "پردازش محلی"
+
+msgid "Login branding"
+msgstr "شخصی‌سازی صفحهٔ ورود"
+
+msgid "M j"
+msgstr "j M"
+
+msgid "Malware"
+msgstr "بدافزار"
+
+msgid "Malware indicators"
+msgstr "نشانه‌های بدافزار"
+
+msgid "Manage your two-factor methods"
+msgstr "مدیریت روش‌های ورود دومرحله‌ای"
+
+msgid "Missing from this installation"
+msgstr "در این نصب مفقود است"
+
+msgid "Needs review"
+msgstr "نیازمند بررسی"
+
+msgid "Qsec blocks XML-RPC pingback methods"
+msgstr "کیوسِک روش‌های پینگ‌بک XML-RPC را بسته است"
+
+msgid "Qsec Content Security Policy preview"
+msgstr "پیش‌نمایش سیاست امنیت محتوا در کیوسِک"
+
+msgid "Qsec CSP preview"
+msgstr "پیش‌نمایش CSP کیوسِک"
+
+msgid "Qsec"
+msgstr "کیوسِک"
+
+msgid "No findings in the inspected portion."
+msgstr "بخش بررسی‌شده یافته‌ای نداشت."
+
+msgid "No local update data"
+msgstr "اطلاعات به‌روزرسانی در دسترس نیست"
+
+msgid "No scan"
+msgstr "اسکن نشده"
+
+msgid "No scans yet. Run a file scan to start tracking findings."
+msgstr "هنوز اسکن انجام نشده است. برای ثبت یافته‌ها یک اسکن فایل اجرا کنید."
+
+msgid "Observations requiring manual review:"
+msgstr "موارد نیازمند بررسی دستی:"
+
+msgid "Open WordPress.org reference"
+msgstr "بازکردن مرجع WordPress.org"
+
+msgid "Partial coverage. A limit was reached or some locations could not be inspected."
+msgstr "پوشش ناقص است. اسکن به سقف رسیده یا خواندن بعضی مسیرها ممکن نبوده است."
+
+msgid "Passed"
+msgstr "موفق"
+
+msgid "Paste the official checksum JSON for the installed version and locale. Qsec compares the reference locally."
+msgstr "JSON رسمی checksum همین نسخه و زبان وردپرس را وارد کنید. کیوسِک مقایسه را روی همین سایت انجام می‌دهد."
+
+msgid "Pause after this batch"
+msgstr "مکث بعد از این دسته"
+
+msgid "PHP marker in a media file"
+msgstr "نشانگر PHP در فایل رسانه‌ای"
+
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+msgid "Potentially executable file extension"
+msgstr "پسوند فایل احتمالاً اجرایی است"
+
+msgid "Preview on the home page"
+msgstr "پیش‌نمایش صفحهٔ اصلی"
+
+msgid "Public URL uses HTTPS"
+msgstr "نشانی عمومی سایت از HTTPS استفاده می‌کند"
+
+msgid "Read the site’s current headers and preview a draft Content Security Policy. Compare the pages that use different styles, fonts, scripts or APIs."
+msgstr "هدرهای فعلی سایت را ببینید و پیش‌نویس CSP را امتحان کنید. صفحه‌هایی با استایل، فونت، اسکریپت یا API متفاوت را مقایسه کنید."
+
+msgid "Reading response headers…"
+msgstr "در حال خواندن هدرهای پاسخ…"
+
+msgid "Recovery mode"
+msgstr "حالت بازیابی"
+
+msgid "Recovery mode is active. Preview, login styling and Qsec hardening are suspended."
+msgstr "حالت بازیابی فعال است. پیش‌نمایش، ظاهر ورود و سخت‌سازی کیوسِک موقتاً غیرفعال‌اند."
+
+msgid "Refresh draft"
+msgstr "به‌روزرسانی پیش‌نویس"
+
+msgid "Review"
+msgstr "بررسی"
+
+msgid "Review hardening controls"
+msgstr "مشاهدهٔ تنظیمات سخت‌سازی"
+
+msgid "Review security headers, inspect files and manage WordPress safeguards from this site."
+msgstr "هدرهای امنیتی را بررسی کنید، فایل‌ها را بازرسی کنید و حفاظت وردپرس را از همین سایت مدیریت کنید."
+
+msgid "Review update information already on this site and the two-factor status of administrators. The review runs when requested."
+msgstr "اطلاعات به‌روزرسانیِ موجود در سایت و وضعیت ورود دومرحله‌ای مدیران را ببینید. بررسی با درخواست شما اجرا می‌شود."
+
+msgid "Run a scan to start your history"
+msgstr "برای شروع تاریخچه یک اسکن اجرا کنید"
+
+msgid "Run malware inspection"
+msgstr "اجرای بازرسی بدافزار"
+
+msgid "Run next batch"
+msgstr "اجرای دستهٔ بعدی"
+
+msgid "Run security review"
+msgstr "اجرای مرور امنیتی"
+
+msgid "Save hardening controls"
+msgstr "ذخیرهٔ تنظیمات سخت‌سازی"
+
+msgid "Save login branding"
+msgstr "ذخیرهٔ ظاهر ورود"
+
+msgid "Scan history cleared."
+msgstr "تاریخچهٔ اسکن پاک شد."
+
+msgid "Scan paused. Reload this page to resume from the latest saved batch."
+msgstr "اسکن متوقف شد. برای ادامه از آخرین دستهٔ ذخیره‌شده، صفحه را دوباره بارگذاری کنید."
+
+msgid "Scans read local files and report findings for review. Qsec stores counts and coverage, and leaves the files in place."
+msgstr "اسکن فایل‌های محلی را می‌خواند و یافته‌ها را گزارش می‌کند. کیوسِک تعداد و پوشش را ذخیره می‌کند و فایل‌ها را دست‌نخورده می‌گذارد."
+
+msgid "Security headers"
+msgstr "هدرهای امنیتی"
+
+msgid "Security overview"
+msgstr "نمای کلی امنیت"
+
+msgid "Security review and export"
+msgstr "مرور امنیتی و خروجی گزارش"
+
+msgid "See recommendations below"
+msgstr "پیشنهادها را در پایین ببینید"
+
+msgid "Set up an authenticator app in your WordPress profile and save the backup codes somewhere private."
+msgstr "برنامهٔ احراز هویت را در پروفایل وردپرس راه‌اندازی کنید و کدهای پشتیبان را در جای امن نگه دارید."
+
+msgid "Seven-day file findings bar chart"
+msgstr "نمودار میله‌ای یافته‌های فایل در هفت روز"
+
+msgid "Site security"
+msgstr "امنیت سایت"
+
+msgid "Start core scan"
+msgstr "شروع اسکن هسته"
+
+msgid "Stops pingback requests and leaves the other XML-RPC methods available."
+msgstr "درخواست‌های پینگ‌بک مسدود می‌شوند و دیگر روش‌های XML-RPC برقرار می‌مانند."
+
+msgid "Style the WordPress login and recovery screens with your site’s title and accent. Clear the title to restore the standard look."
+msgstr "عنوان و رنگ سایت را به صفحه‌های ورود و بازیابی رمز اضافه کنید. با پاک‌کردن عنوان، ظاهر استاندارد برمی‌گردد."
+
+msgid "Suspicious: code execution and decoding in the same PHP sample"
+msgstr "مشکوک: اجرای کد و رمزگشایی در یک نمونهٔ PHP"
+
+msgid "Suspicious: executable extension in uploads"
+msgstr "مشکوک: پسوند اجرایی در آپلودها"
+
+msgid "Suspicious: PHP marker in a media file"
+msgstr "مشکوک: نشانگر PHP در فایل رسانه‌ای"
+
+msgid "The download contains counts and coverage. It excludes account names, site URLs, file paths and secrets."
+msgstr "گزارش شامل تعدادها و پوشش بررسی است. نام حساب‌ها، نشانی سایت، مسیر فایل‌ها و اطلاعات محرمانه در آن درج نمی‌شوند."
+
+msgid "The first 60 findings are listed."
+msgstr "۶۰ یافتهٔ اول فهرست شده‌اند."
+
+msgid "The header probe failed. Inspect the page response in the browser’s Network tab."
+msgstr "خواندن هدرها انجام نشد. هدرهای پاسخ را در زبانهٔ Network مرورگر ببینید."
+
+msgid "The probe reads a HEAD response from this page. Your host may send different headers for GET requests."
+msgstr "ابزار، پاسخ HEAD همین صفحه را می‌خواند. هاست ممکن است برای درخواست GET هدرهای دیگری بفرستد."
+
+msgid "The scan changed or expired. Use the current progress below."
+msgstr "اسکن تغییر کرده یا منقضی شده است. از پیشرفت فعلی که پایین می‌بینید ادامه دهید."
+
+msgid "Themes"
+msgstr "قالب‌ها"
+
+msgid "This draft reflects resources observed in one page load. Inline code, late requests and other pages require separate review. Refresh the draft after interacting with the page."
+msgstr "پیش‌نویس بر پایهٔ منابع دیده‌شده در یک بار بارگیری است. کد درون‌خطی، درخواست‌های دیرهنگام و صفحه‌های دیگر جدا بررسی می‌شوند. بعد از کار با صفحه، پیش‌نویس را تازه کنید."
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Trusted SHA-256 digests (optional)"
+msgstr "هش‌های معتبر SHA-256 (اختیاری)"
+
+msgid "Two-factor authentication"
+msgstr "ورود دومرحله‌ای"
+
+msgid "Two-factor is available. Your account is not enrolled."
+msgstr "ورود دومرحله‌ای در دسترس است. هنوز برای حساب شما فعال نشده است."
+
+msgid "Two-factor is enabled for your account."
+msgstr "ورود دومرحله‌ای برای حساب شما فعال است."
+
+msgid "Two-Factor is unavailable"
+msgstr "افزونهٔ Two-Factor در دسترس نیست"
+
+msgid "Uploads"
+msgstr "آپلودها"
+
+msgid "Uploads, core and malware are separate series. A short line marks zero findings, and a gap means no scan. Details are listed in the data table."
+msgstr "آپلودها، هسته و بدافزار جدا نمایش داده می‌شوند. خط کوتاه یعنی صفر یافته و فضای خالی یعنی اسکن نشده. جزئیات در جدول داده‌ها آمده است."
+
+msgid "View chart data"
+msgstr "نمایش داده‌های نمودار"
+
+msgid "WordPress core"
+msgstr "هستهٔ وردپرس"
+
+msgid "WordPress debug display is off"
+msgstr "نمایش خطاهای عیب‌یابی وردپرس خاموش است"
+
+msgid "You do not have permission to export this report."
+msgstr "شما اجازهٔ دریافت این گزارش را ندارید."
+
+msgid "Local security dashboard, file integrity, header preview and WordPress hardening."
+msgstr "پیشخوان امنیتی محلی، یکپارچگی فایل‌ها، پیش‌نمایش هدرها و سخت‌سازی وردپرس."

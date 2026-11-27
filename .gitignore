@@ -1,0 +1,14 @@
+*.zip
+*.log
+.env
+.env.*
+wp-config.php
+node_modules/
+vendor/
+/dist/
+/work/
+Thumbs.db
+.DS_Store
+/assets/farhang-dot1-bold.woff2
+/assets/farhang-font-license.txt
+/assets/tahrir-regular.woff2

@@ -1,0 +1,255 @@
+.login.qsec-login--classic {
+	background: radial-gradient(ellipse at 75% 0%, #d4ebe5 0, #f2f7f8 44%, #f2f7f8 100%);
+}
+.login.qsec-login--classic #login {
+	width: min(358px, calc(100% - 36px));
+}
+.login.qsec-login--classic :is(form, .message, .notice, #login_error) {
+	border-radius: 8px;
+}
+.login.qsec-login--classic form {
+	border-color: #d1dfe2;
+	border-radius: 14px;
+	box-shadow: 0 10px 30px rgb(30 70 77 / .09);
+}
+.login.qsec-login--classic .qa3-login-brand {
+	padding: 12px 14px;
+	color: #1a353b;
+	border-inline-start-color: #14756a;
+	font-size: 15px;
+	overflow-wrap: anywhere;
+}
+
+.login.qsec-login--preset {
+	--qsec-page: #edf5f0;
+	--qsec-panel: #fff;
+	--qsec-text: #132d26;
+	--qsec-muted: #405c53;
+	--qsec-accent: #08634d;
+	--qsec-button: #08634d;
+	--qsec-button-text: #fff;
+	--qsec-hover: #064d3b;
+	--qsec-border: #a0b9af;
+	--qsec-field: #fbfdfb;
+	--qsec-art: #d5ebe0;
+	--qsec-glow: #b5e8d3;
+	--qsec-grid: #51917b;
+	--qsec-shadow: rgb(24 64 51 / 13%);
+	--qsec-error: #a32b32;
+	--qsec-column-width: min(420px, calc(50% - 48px));
+	--qsec-column-start: calc(75% - min(210px, 25% - 24px));
+	color-scheme: light;
+	position: relative;
+	min-height: 100vh;
+	margin: 0;
+	color: var(--qsec-text);
+	background: var(--qsec-page);
+}
+
+.login.qsec-login--dark {
+	--qsec-page: #081510;
+	--qsec-panel: #10241c;
+	--qsec-text: #effaf3;
+	--qsec-muted: #b6d2c4;
+	--qsec-accent: #57e5ac;
+	--qsec-button: #50dda6;
+	--qsec-button-text: #072419;
+	--qsec-hover: #83eec1;
+	--qsec-border: #58776a;
+	--qsec-field: #091c14;
+	--qsec-art: #0a2117;
+	--qsec-glow: #1b563e;
+	--qsec-grid: #6ec6a1;
+	--qsec-shadow: rgb(0 0 0 / 35%);
+	--qsec-error: #ff919a;
+	color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+	.login.qsec-login--system {
+		--qsec-page: #081510;
+		--qsec-panel: #10241c;
+		--qsec-text: #effaf3;
+		--qsec-muted: #b6d2c4;
+		--qsec-accent: #57e5ac;
+		--qsec-button: #50dda6;
+		--qsec-button-text: #072419;
+		--qsec-hover: #83eec1;
+		--qsec-border: #58776a;
+		--qsec-field: #091c14;
+		--qsec-art: #0a2117;
+		--qsec-glow: #1b563e;
+		--qsec-grid: #6ec6a1;
+		--qsec-shadow: rgb(0 0 0 / 35%);
+		--qsec-error: #ff919a;
+		color-scheme: dark;
+	}
+}
+
+.qsec-login-art {
+	position: absolute;
+	inset-block: 0;
+	inset-inline-start: 0;
+	display: grid;
+	width: 50%;
+	place-items: center;
+	background: radial-gradient(ellipse at center, var(--qsec-glow), var(--qsec-art) 68%);
+	border-inline-end: 1px solid var(--qsec-border);
+	color: var(--qsec-accent);
+	pointer-events: none;
+}
+
+.qsec-login-graphic {
+	display: block;
+	width: min(84%, 440px);
+	height: auto;
+}
+
+.qsec-login-grid {
+	color: var(--qsec-grid);
+	opacity: .45;
+}
+
+.qsec-login-shield {
+	fill: var(--qsec-art);
+	stroke: currentColor;
+	stroke-width: 4;
+	transform-origin: center;
+}
+
+.qsec-login-nodes {
+	opacity: .8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.login:not(.qsec-login--still) .qsec-login-shield {
+		animation: qsec-shield-in 650ms ease-out both;
+	}
+
+	.login:not(.qsec-login--still) .qsec-login-nodes circle {
+		transform-box: fill-box;
+		transform-origin: center;
+		animation: qsec-node-pulse 5.6s ease-in-out infinite;
+		animation-delay: var(--qsec-node-delay, 0s);
+	}
+
+	.qsec-login-nodes circle:nth-child(2) { --qsec-node-delay: 1.4s; }
+	.qsec-login-nodes circle:nth-child(3) { --qsec-node-delay: 2.8s; }
+	.qsec-login-nodes circle:nth-child(4) { --qsec-node-delay: 4.2s; }
+}
+
+@keyframes qsec-shield-in {
+	from { opacity: .2; transform: translateY(6px) scale(.95); }
+	to { opacity: 1; transform: none; }
+}
+
+@keyframes qsec-node-pulse {
+	0%, 36%, 100% { opacity: .58; transform: scale(1); }
+	18% { opacity: 1; transform: scale(1.24); }
+}
+
+.login.qsec-login--preset :is(#login, .language-switcher, .qsec-login-credit) {
+	box-sizing: border-box;
+	position: relative;
+	width: var(--qsec-column-width);
+	margin-inline: var(--qsec-column-start) auto;
+}
+
+.login.qsec-login--preset #login {
+	padding: clamp(56px, 13vh, 144px) 0 0;
+}
+
+.qsec-login--preset .wp-login-logo a {
+	width: auto;
+	height: auto;
+	margin-block-end: 20px;
+	background: none;
+	color: var(--qsec-text);
+	font-size: clamp(1.6rem, 4vw, 2.4rem);
+	font-weight: 700;
+	letter-spacing: -.025em;
+	line-height: 1.16;
+	text-indent: 0;
+	overflow-wrap: anywhere;
+}
+
+.login.qsec-login--preset #login :is(form, .message, .notice, #login_error, .success) {
+	color: var(--qsec-text);
+	background: var(--qsec-panel);
+	border-radius: 12px;
+}
+
+.login.qsec-login--preset #login form {
+	padding: 28px;
+	border: 1px solid var(--qsec-border);
+	border-radius: 18px;
+	box-shadow: 0 12px 34px var(--qsec-shadow);
+}
+
+.login.qsec-login--preset #login_error { border-inline-start-color: var(--qsec-error); }
+.login.qsec-login--preset .message { border-inline-start-color: var(--qsec-accent); }
+.login.qsec-login--preset #login :is(label, .description, .indicator-hint) { color: var(--qsec-text); }
+.login.qsec-login--preset #login :is(#nav, #backtoblog) { padding-inline: 0; }
+.login.qsec-login--preset #login :is(#nav a, #backtoblog a, .privacy-policy-link, .button.wp-hide-pw) { color: var(--qsec-accent); }
+.login.qsec-login--preset :is(#login input:not([type=submit]):not([type=hidden]), #language-switcher select) {
+	color: var(--qsec-text);
+	background-color: var(--qsec-field);
+	border-color: var(--qsec-border);
+}
+
+.login.qsec-login--preset #language-switcher {
+	margin-block: 20px 0;
+}
+
+.login.qsec-login--preset #language-switcher select {
+	appearance: auto;
+	padding-inline: 12px;
+	background-image: none;
+}
+
+.login.qsec-login--preset #language-switcher .button {
+	color: var(--qsec-accent);
+	background: var(--qsec-field);
+	border-color: var(--qsec-border);
+}
+
+.login.qsec-login--preset #login .button-primary {
+	color: var(--qsec-button-text);
+	background: var(--qsec-button);
+	border-color: var(--qsec-button);
+	font-weight: 600;
+}
+
+.login.qsec-login--preset #login .button-primary:hover { background: var(--qsec-hover); border-color: var(--qsec-hover); }
+.login.qsec-login--preset :is(#login, #language-switcher) :is(a, button, input, select):focus-visible {
+	outline: 2px solid var(--qsec-accent);
+	outline-offset: 3px;
+}
+
+.login.qsec-login--preset #login .button-primary:disabled { opacity: .52; }
+
+.qsec-login-credit {
+	margin-block: 16px 36px;
+	color: var(--qsec-muted);
+	text-align: center;
+	font-size: .82rem;
+}
+
+@media (max-width: 760px) {
+	.login.qsec-login--preset {
+		--qsec-column-width: min(420px, calc(100% - 36px));
+		--qsec-column-start: auto;
+	}
+
+	.qsec-login-art {
+		position: relative;
+		width: 100%;
+		height: 108px;
+		border: 0;
+		border-block-end: 1px solid var(--qsec-border);
+	}
+	.qsec-login-graphic { width: 95px; }
+	.login.qsec-login--preset #login {
+		padding-block-start: 28px;
+	}
+}
