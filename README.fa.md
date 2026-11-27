@@ -6,7 +6,7 @@
   <p><a href="README.md">English</a> · <strong>فارسی</strong></p>
   <p>
     <a href="https://github.com/qa3me/qsec/releases/latest"><strong>دانلود بستهٔ نصب</strong></a>
-    · <a href="https://qsec.qa3.me/">سایت کیوسِک</a>
+    · <a href="https://qsec.qa3.me">سایت کیوسِک</a>
     · <a href="https://qsec.qa3.me/guide/index.html">راهنمای نصب</a>
   </p>
 </div>

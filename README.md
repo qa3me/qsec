@@ -6,7 +6,7 @@
   <p><strong>English</strong> · <a href="README.fa.md">فارسی</a></p>
   <p>
     <a href="https://github.com/qa3me/qsec/releases/latest"><strong>Download the installer</strong></a>
-    · <a href="https://qsec.qa3.me/en/index.html">Project website</a>
+    · <a href="https://qsec.qa3.me">Project website</a>
     · <a href="https://qsec.qa3.me/en/guide/index.html">Setup guide</a>
   </p>
 </div>
