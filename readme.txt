@@ -3,7 +3,7 @@ Tags: security, firewall, login security, file integrity, csp
 Requires at least: 6.6
 Requires PHP: 8.3
 Tested up to: 7.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Local security for WordPress with a report-first firewall, login controls, CSP p
 
 Qsec Security gives site administrators a local dashboard for reviewing WordPress security controls, checking files, and testing changes before enforcing them. Open **Settings > Qsec** to see configuration checks and scan history.
 
-[Source code and issue tracker](https://github.com/qa3me/qsec)
+[Qsec Security website and setup guide](https://qsec.qa3.me/)
 
 * **Report-first firewall.** See daily matches for selected configuration and version-control paths on public GET and HEAD requests that reach WordPress. Choose report only, block and report, or off.
 * **Native login protection.** Enable a one-minute cooldown for repeated failed password attempts from the same source and login name. Turn on aggregate login reports separately. Choose a dark, light, or device-matched style for the native login screen. The optional author credit is off by default.
@@ -65,6 +65,9 @@ The administrator preview sends a report-only header. Each draft depends on the 
 5. The Persian dashboard with a right-to-left layout and Jalali dates.
 
 == Changelog ==
+
+= 1.0.1 =
+* Use the public Qsec website as the plugin homepage. The dashboard links to the GitHub repository.
 
 = 1.0.0 =
 * First stable release with a report-first firewall, security header previews, login controls, and resumable file integrity checks.

@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Qsec Security
- * Plugin URI: https://github.com/qa3me/qsec
+ * Plugin URI: https://qsec.qa3.me/
  * Description: Local security dashboard, file integrity, header preview and WordPress hardening.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.6
  * Requires PHP: 8.3
  * Author: Behzad Qasemi (QA3)
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 const OPTION = 'qa3_wp_security_login';
 const PROJECT_URL = 'https://github.com/qa3me/qsec';
 
